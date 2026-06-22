@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floyd Martin Angelou Mendoza | Technical Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .cert-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .cert-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100">
+    <!-- Navigation -->
+    <nav class="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold">FM</div>
+                <span class="text-xl font-semibold">Floyd Mendoza</span>
+            </div>
+            <div class="flex gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
+                <a href="#certifications" class="hover:text-blue-400 transition-colors">Certifications</a>
+                <a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
+                <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero-bg py-24">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-1.5 rounded-full text-sm mb-6">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    Available for opportunities
+                </div>
+                <h1 class="text-6xl md:text-7xl font-bold leading-tight mb-4">
+                    Floyd Martin<br>Angelou Mendoza
+                </h1>
+                <p class="text-2xl text-blue-200 mb-8">Aspiring Technical Professional</p>
+                <p class="max-w-lg text-zinc-300 text-lg mb-10">
+                    21-year-old passionate learner with national certifications in computer systems, electrical installation, and more. 
+                    Eager to apply technical knowledge in real-world projects.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#contact" 
+                       class="bg-white text-zinc-900 px-8 py-4 rounded-2xl font-semibold flex items-center gap-3 hover:bg-zinc-100 transition-colors">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Get In Touch
+                    </a>
+                    <a href="#certifications" 
+                       class="border border-white/70 hover:bg-white/10 px-8 py-4 rounded-2xl font-semibold transition-colors">
+                        View Certifications
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="relative">
+                    <img src="C:\Users\egart\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 091804.png" 
+                         alt="Floyd Martin Angelou Mendoza" 
+                         class="w-80 h-80 object-cover rounded-3xl shadow-2xl ring-8 ring-white/20">
+                    <div class="absolute -bottom-4 -right-4 bg-zinc-900 rounded-2xl px-6 py-3 border border-zinc-700">
+                        <div class="flex items-center gap-3">
+                            <div class="text-emerald-400">
+                                <i class="fa-solid fa-certificate text-2xl"></i>
+                            </div>
+                            <div>
+                                <div class="text-sm font-medium">6x NCII Certified</div>
+                                <div class="text-xs text-zinc-400">TESDA Philippines</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-20 bg-zinc-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 flex items-center gap-3">
+                <span class="text-blue-500">01.</span> About Me
+            </h2>
+            <div class="prose prose-zinc prose-invert max-w-none text-lg">
+                <p class="text-zinc-300">
+                    I am a 21-year-old student at Asian Development Foundation College with a strong foundation in technical skills. 
+                    I hold multiple National Certificates (NCII) from TESDA in areas including Computer Systems Servicing, 
+                    Electrical Installation & Maintenance, and more. 
+                </p>
+                <p class="text-zinc-300">
+                    My goal is to build reliable technical solutions and grow as a full-stack developer or IT support professional.
+                    I excel in teamwork, communication, and hands-on problem solving.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6 mt-16">
+                <div class="bg-zinc-800/50 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="text-blue-400 text-4xl mb-4">🇵🇭</div>
+                    <h3 class="font-semibold mb-1">Based in</h3>
+                    <p class="text-zinc-400">Tacloban City, Leyte, Philippines</p>
+                </div>
+                <div class="bg-zinc-800/50 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="text-blue-400 text-4xl mb-4">🎯</div>
+                    <h3 class="font-semibold mb-1">Age</h3>
+                    <p class="text-zinc-400">21 years old</p>
+                </div>
+                <div class="bg-zinc-800/50 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="text-blue-400 text-4xl mb-4">📅</div>
+                    <h3 class="font-semibold mb-1">Born</h3>
+                    <p class="text-zinc-400">April 23, 2005</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 flex items-center gap-3">
+                <span class="text-blue-500">02.</span> Technical Skills
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Programming -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-8">
+                        <i class="fa-solid fa-code text-3xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-2xl font-semibold">Programming</h3>
+                            <p class="text-zinc-500 text-sm">Foundational knowledge</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-5 py-2 bg-zinc-800 rounded-2xl text-sm">Python</span>
+                        <span class="px-5 py-2 bg-zinc-800 rounded-2xl text-sm">JavaScript</span>
+                        <span class="px-5 py-2 bg-zinc-800 rounded-2xl text-sm">HTML / CSS</span>
+                        <span class="px-5 py-2 bg-zinc-800 rounded-2xl text-sm">Basic C/C++</span>
+                    </div>
+                </div>
+
+                <!-- Computer Skills -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                    <div class="flex items-center gap-4 mb-8">
+                        <i class="fa-solid fa-computer text-3xl text-sky-400"></i>
+                        <div>
+                            <h3 class="text-2xl font-semibold">Computer Systems</h3>
+                            <p class="text-zinc-500 text-sm">Hardware &amp; Software</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1"></i>
+                            Computer System Servicing &amp; Troubleshooting
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1"></i>
+                            Basic Networking &amp; Configuration
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1"></i>
+                            Microsoft Office Suite
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1"></i>
+                            Front Office Systems
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-8 grid md:grid-cols-2 gap-8">
+                <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                    <h3 class="font-semibold text-xl mb-6">Soft Skills</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-6 py-3 bg-emerald-900/30 text-emerald-300 border border-emerald-800 rounded-2xl">Teamwork</span>
+                        <span class="px-6 py-3 bg-emerald-900/30 text-emerald-300 border border-emerald-800 rounded-2xl">Communication</span>
+                        <span class="px-6 py-3 bg-emerald-900/30 text-emerald-300 border border-emerald-800 rounded-2xl">Problem Solving</span>
+                        <span class="px-6 py-3 bg-emerald-900/30 text-emerald-300 border border-emerald-800 rounded-2xl">Adaptability</span>
+                    </div>
+                </div>
+                
+                <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                    <h3 class="font-semibold text-xl mb-6">Other Technical Areas</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span>Electrical Installation &amp; Maintenance</span>
+                                <span class="text-emerald-400">Advanced</span>
+                            </div>
+                            <div class="h-2 bg-zinc-800 rounded-full overflow-hidden">
+                                <div class="h-2 w-4/5 bg-orange-500 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span>Photography</span>
+                                <span class="text-emerald-400">Intermediate</span>
+                            </div>
+                            <div class="h-2 bg-zinc-800 rounded-full overflow-hidden">
+                                <div class="h-2 w-3/5 bg-purple-500 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span>Bookkeeping</span>
+                                <span class="text-emerald-400">Intermediate</span>
+                            </div>
+                            <div class="h-2 bg-zinc-800 rounded-full overflow-hidden">
+                                <div class="h-2 w-2/3 bg-cyan-500 rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="py-20 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 flex items-center gap-3">
+                <span class="text-blue-500">03.</span> Certifications (TESDA NCII)
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="cert-card bg-zinc-800 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span class="inline-block px-3 py-1 text-xs font-mono bg-amber-500/10 text-amber-400 rounded-full">NCII</span>
+                            <h3 class="font-semibold text-lg mt-4">Computer Systems Servicing</h3>
+                        </div>
+                        <i class="fa-solid fa-laptop text-4xl text-amber-400"></i>
+                    </div>
+                    <p class="text-zinc-400 text-sm mt-6">Installation, configuration, and maintenance of computer systems and networks.</p>
+                </div>
+                
+                <div class="cert-card bg-zinc-800 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span class="inline-block px-3 py-1 text-xs font-mono bg-purple-500/10 text-purple-400 rounded-full">NCII</span>
+                            <h3 class="font-semibold text-lg mt-4">Electrical Installation &amp; Maintenance</h3>
+                        </div>
+                        <i class="fa-solid fa-bolt text-4xl text-purple-400"></i>
+                    </div>
+                    <p class="text-zinc-400 text-sm mt-6">Wiring, electrical systems installation and troubleshooting.</p>
+                </div>
+                
+                <div class="cert-card bg-zinc-800 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span class="inline-block px-3 py-1 text-xs font-mono bg-sky-500/10 text-sky-400 rounded-full">NCII</span>
+                            <h3 class="font-semibold text-lg mt-4">Front Office Services</h3>
+                        </div>
+                        <i class="fa-solid fa-desktop text-4xl text-sky-400"></i>
+                    </div>
+                    <p class="text-zinc-400 text-sm mt-6">Customer service and office systems management.</p>
+                </div>
+                
+                <div class="cert-card bg-zinc-800 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span class="inline-block px-3 py-1 text-xs font-mono bg-rose-500/10 text-rose-400 rounded-full">NCII</span>
+                            <h3 class="font-semibold text-lg mt-4">Photography</h3>
+                        </div>
+                        <i class="fa-solid fa-camera text-4xl text-rose-400"></i>
+                    </div>
+                    <p class="text-zinc-400 text-sm mt-6">Digital photography techniques and post-processing.</p>
+                </div>
+                
+                <div class="cert-card bg-zinc-800 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span class="inline-block px-3 py-1 text-xs font-mono bg-cyan-500/10 text-cyan-400 rounded-full">NCII</span>
+                            <h3 class="font-semibold text-lg mt-4">Electronic Products Assembly &amp; Servicing</h3>
+                        </div>
+                        <i class="fa-solid fa-microchip text-4xl text-cyan-400"></i>
+                    </div>
+                </div>
+                
+                <div class="cert-card bg-zinc-800 border border-zinc-700 p-6 rounded-3xl">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span class="inline-block px-3 py-1 text-xs font-mono bg-teal-500/10 text-teal-400 rounded-full">NCIII</span>
+                            <h3 class="font-semibold text-lg mt-4">Bookkeeping</h3>
+                        </div>
+                        <i class="fa-solid fa-calculator text-4xl text-teal-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 flex items-center gap-3">
+                <span class="text-blue-500">04.</span> Education
+            </h2>
+            <div class="space-y-12">
+                <div class="flex gap-8">
+                    <div class="w-28 flex-shrink-0 text-right">
+                        <div class="font-mono text-sm text-zinc-500">2020 — Present</div>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-xl">Asian Development Foundation College</div>
+                        <div class="text-zinc-400">Tacloban City • College (Ongoing)</div>
+                    </div>
+                </div>
+                
+                <div class="flex gap-8">
+                    <div class="w-28 flex-shrink-0 text-right">
+                        <div class="font-mono text-sm text-zinc-500">2016 — 2023</div>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-xl">Leyte National High School</div>
+                        <div class="text-zinc-400">Tacloban City • Senior High School</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-zinc-900 border-t border-zinc-800">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+            <p class="text-zinc-400 mb-10 max-w-md mx-auto">
+                I'm actively looking for internship or entry-level opportunities in IT, technical support, or web development.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="mailto:floydmendoza05@gmail.com" 
+                   class="flex items-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-8 py-4 rounded-2xl transition-colors">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>floydmendoza05@gmail.com</span>
+                </a>
+                <a href="tel:0993316797" 
+                   class="flex items-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-8 py-4 rounded-2xl transition-colors">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>0993 316 797</span>
+                </a>
+            </div>
+            
+            <div class="mt-16 text-xs text-zinc-500">
+                Brgy. 99 Dit Merceville, Tacloban City, Leyte, Philippines
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-8 text-center text-xs text-zinc-500">
+        © 2026 Floyd Martin Angelou Mendoza • Built as a technical portfolio
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
